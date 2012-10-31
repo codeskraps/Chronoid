@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    	Chronoid
+		Copyright (C) Carles Sentis 2011 <carlesentis@gmail.com>
+
+		Chronoid is free software: you can
+		redistribute it and/or modify it under the terms
+		of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of
+		the License, or (at your option) any later
+		version.
+
+		Chronoid is distributed in the hope that it
+		will be useful, but WITHOUT ANY WARRANTY; without
+		even the implied warranty of MERCHANTABILITY or
+		FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+		General Public License for more details.
+		 
+		You should have received a copy of the GNU
+		General Public License along with this program.
+		If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+
+    <style name="mainLinearLayout">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="btnChronometer">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:textSize">70dp</item>
+        <item name="android:layout_margin">15dp</item>
+    </style>
+
+    <drawable name="transparent_background">#a0000000</drawable>
+
+    <style name="Theme.Translucent" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+
+    <style name="donationImage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">30dip</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <LinearLayout style="@style/mainLinearLayout" >
+
+        <Button
+            android:id="@+id/btnTwo"
+            style="@style/btnChronometer" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/mainLinearLayout" >
+
+        <Button
+            android:id="@+id/btnOne"
+            style="@style/btnChronometer" />
+    </LinearLayout>
+
+</LinearLayout>

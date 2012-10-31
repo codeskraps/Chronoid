@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/prefPlayerCategory" >
+        <ListPreference
+            android:defaultValue="5"
+            android:dialogTitle="@string/dialog_title_list"
+            android:entries="@array/entries_minutesTimes"
+            android:entryValues="@array/entryvalues_minutesTimes"
+            android:key="playerOne_minutes"
+            android:summary="@string/player_minutes_summary"
+            android:title="@string/playerOne_minutes" />
+        <!-- <CheckBoxPreference -->
+        <!-- android:key="checkBox_sametime" -->
+        <!-- android:title="@string/check_sametime" -->
+        <!-- android:summary="@string/check_sametime_summary" -->
+        <!-- android:defaultValue="false" /> -->
+        <!-- <ListPreference -->
+        <!-- android:key="playerTwo_minutes" -->
+        <!-- android:title="@string/playerTwo_minutes" -->
+        <!-- android:summary="@string/player_minutes_summary" -->
+        <!-- android:entries="@array/entries_minutesTimes" -->
+        <!-- android:entryValues="@array/entryvalues_minutesTimes" -->
+        <!-- android:dialogTitle="@string/dialog_title_list" -->
+        <!-- android:dependency="checkBox_sametime" -->
+        <!-- android:layout="?android:attr/preferenceLayoutChild" -->
+        <!-- android:defaultValue="5" /> -->
+    </PreferenceCategory>
+
+    <!-- <PreferenceCategory -->
+    <!-- android:title="@string/prefGameType"> -->
+    <!-- <ListPreference -->
+    <!-- android:key="game_type" -->
+    <!-- android:title="@string/gameType" -->
+    <!-- android:summary="@string/gameType_summary" -->
+    <!-- android:entries="@array/entries_gameType" -->
+    <!-- android:entryValues="@array/entryvalues_gameType" -->
+    <!-- android:dialogTitle="@string/dialog_title_list" -->
+    <!-- android:defaultValue="Blitz Chess"/> -->
+    <!-- <ListPreference -->
+    <!-- android:key="time_delay" -->
+    <!-- android:title="@string/timeDelay" -->
+    <!-- android:summary="@string/timeDelay_summary" -->
+    <!-- android:entries="@array/entries_timeDelay" -->
+    <!-- android:entryValues="@array/entryvalues_timeDelay" -->
+    <!-- android:dialogTitle="@string/dialog_title_list" -->
+    <!-- android:defaultValue="5 seconds"/> -->
+    <!-- </PreferenceCategory> -->
+    <PreferenceCategory android:title="@string/prefCat_Pal" >
+        <Preference
+            android:key="prefdonation"
+            android:summary="@string/prefDon_summ"
+            android:title="@string/prefDon_title" />
+        <Preference
+            android:key="preffeedback"
+            android:summary="@string/prefFeed_summ"
+            android:title="@string/prefFeed_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefCat_info" >
+        <Preference
+            android:summary="@string/prefInfo_summ"
+            android:title="@string/prefInfo_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

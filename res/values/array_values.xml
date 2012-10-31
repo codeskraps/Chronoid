@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--	Chronoid
+		Copyright (C) Carles Sentis 2011 <carlesentis@gmail.com>
+
+		Chronoid is free software: you can
+		redistribute it and/or modify it under the terms
+		of the GNU General Public License as published by
+		the Free Software Foundation, either version 3 of
+		the License, or (at your option) any later
+		version.
+
+		Chronoid is distributed in the hope that it
+		will be useful, but WITHOUT ANY WARRANTY; without
+		even the implied warranty of MERCHANTABILITY or
+		FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+		General Public License for more details.
+		 
+		You should have received a copy of the GNU
+		General Public License along with this program.
+		If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources>
+    <string-array name="entries_minutesTimes">
+        <item>5 minutes</item>
+        <item>10 mintues</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+    </string-array>
+    
+   <string-array name="entryvalues_minutesTimes">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>  
+    </string-array>
+    
+    <string-array name="entries_gameType">
+    	<item>Blitz Chess</item>
+        <item>Fischer</item>
+        <item>Bronstein delay</item>
+        <item>Simple delay</item>
+        <item>Word</item>
+        <item>Hour Glass</item>
+    </string-array>
+    
+   <string-array name="entryvalues_gameType">
+   		<item>Blitz Chess</item>
+        <item>Fischer</item>
+        <item>Bronstein delay</item>
+        <item>Simple delay</item>
+        <item>Word</item>
+        <item>Hour Glass</item>
+    </string-array>
+    
+    <string-array name="entries_timeDelay">
+        <item>1 second</item>
+        <item>2 seconds</item>
+        <item>3 seconds</item>
+        <item>4 seconds</item>
+        <item>5 seconds</item>
+    </string-array>
+    
+   <string-array name="entryvalues_timeDelay">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>  
+    </string-array>
+</resources>
